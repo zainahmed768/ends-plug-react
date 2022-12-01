@@ -1,0 +1,68 @@
+.contact-us-banner {
+	background-image: linear-gradient(
+		to left,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	padding: 109px 0px;
+	text-align: center;
+}
+.contact-us-banner .page-header-content-wrapper h1 {
+	font-size: 53px;
+	font-family: "nexa-regular";
+	font-weight: 700;
+	line-height: 1.2;
+}
+.contact-form {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.contact-form .contact-form-wrapper {
+	padding-bottom: 37px;
+}
+.contact-form-wrapper .contact-form-heading-wrapper h3 {
+	font-size: 40px;
+	font-family: "nexa-bold";
+	font-weight: 700;
+}
+.contact-form .contact-form-wrapper .contact-form-heading-wrapper {
+	padding-bottom: 30px;
+}
+.contact-form .contact-form-wrapper input.form-control {
+	background: transparent;
+	border: 0px;
+	border-bottom: 2px solid #fff;
+	border-radius: 0px;
+	color: #fff;
+	padding: 22px 0px;
+}
+.contact-form .contact-form-wrapper input.form-control::placeholder {
+	color: #fff;
+	font-family: "nexa-regular";
+	font-style: italic;
+}
+.contact-form .contact-form-wrapper textarea {
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 21px;
+	color: #fff;
+	padding: 20px 17px;
+	margin-top: 33px;
+}
+.contact-form .contact-form-wrapper textarea::placeholder {
+	color: #fff;
+	font-family: "nexa-regular";
+	font-style: italic;
+}
+.contact-form-wrapper .btn {
+	font-family: "nexa-regular";
+	color: #fff;
+	font-size: 15px;
+	border: 1px solid #fff;
+	padding: 10px 45px;
+	text-transform: uppercase;
+	border-radius: 36px;
+}

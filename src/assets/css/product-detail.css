@@ -1,0 +1,436 @@
+/* Product Detail Css Start Here */
+.product-detail {
+	padding: 100px 0;
+}
+.product-detail .heading-wrapper {
+	padding-bottom: 80px;
+	text-align: center;
+}
+.product-detail .heading-wrapper h2 {
+	font-family: "nexa-bold";
+}
+.product-detail .product-img figure {
+	background: #fff;
+	text-align: center;
+	border-radius: 11px;
+}
+.product-detail .product-img figure img.img-fluid {
+	margin: 0px auto;
+}
+.product-detail .product-box {
+	background: #fffffe0f;
+	padding: 40px 15px;
+	border-radius: 7px;
+}
+.product-detail .product-box .product-content h3.name {
+	font-size: 24px;
+	font-weight: 600;
+}
+.product-detail .product-box .product-content p.sub-title {
+	font-size: 20px;
+	color: #ffffff87;
+	margin-bottom: 9px;
+}
+.product-detail .product-box .product-content ul.stars {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	margin-right: 5px;
+}
+.product-detail .product-box .product-content .reviews {
+	display: flex;
+}
+.product-detail .product-box .product-content ul.stars li {
+	margin-right: 6px;
+	color: #ffab00;
+	font-size: 14px;
+}
+.product-detail .product-box .product-content .reviews p {
+	margin: 0;
+	color: #999999;
+}
+.write-review .upload-photo .upload-box label {
+	cursor: pointer;
+}
+.product-detail .product-box .product-content .price h3 {
+	font-size: 40px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+.product-detail .product-box .product-content ul.variation {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.product-detail .product-box .product-content ul.variation li {
+	display: inline-block;
+}
+.product-detail
+	.product-box
+	.product-content
+	ul.variation
+	li
+	label.varai-container
+	span.checkmark
+	p {
+	border: 3px solid #f9b84c;
+	margin-right: 10px;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	line-height: 27px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.product-detail
+	.product-box
+	.product-content
+	ul.variation
+	li
+	label.varai-container
+	input:checked
+	~ span.checkmark
+	p {
+	background: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	border: 0;
+	line-height: 34px;
+}
+.product-detail .product-box .product-content button.btn.edit-product {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	font-size: 14px;
+	color: #ffffff;
+	padding: 13px 50px;
+	margin-top: 15px;
+	width: 65%;
+	border-radius: 10px;
+}
+.product-detail .product-box .product-content button.btn.delete-product {
+	background: #ff5b5b;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 13px 50px;
+	margin-top: 15px;
+	width: 65%;
+	border-radius: 10px;
+}
+.product-detail .product-box .product-content {
+	position: relative;
+	padding-left: 20px;
+}
+.product-detail .product-box .product-content:before {
+	content: "";
+	background: #707070;
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+}
+.product-detail .product-box p.zoom {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #888888;
+}
+.product-detail .product-box p.zoom svg {
+	margin-right: 3px;
+}
+/* Product Detail Css End Here */
+
+/* Merchant Product Detail Css Start Here */
+.merchant-product-detail {
+	padding: 40px 0;
+}
+.merchant-product-detail .actions-button {
+	display: flex;
+	align-items: center;
+}
+.merchant-product-detail .quantity .form-group {
+	display: flex;
+	background: #fff;
+	align-items: center;
+	width: 30%;
+	margin: 0;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+.merchant-product-detail .quantity .form-group button.minus {
+	border: 0;
+	outline: none;
+	box-shadow: none;
+	background: transparent;
+}
+.merchant-product-detail .quantity .form-group input.form-control {
+	background: transparent;
+	border: 0;
+	box-shadow: none;
+	text-align: center;
+	outline: none;
+	width: 50px;
+	flex: 1;
+}
+.merchant-product-detail .quantity .form-group {
+	width: 100%;
+}
+.merchant-product-detail .product-box .product-content button.btn.edit-product {
+	width: 90%;
+	margin: 30px 0 0 auto;
+	display: table;
+}
+.merchant-product-detail .product-box .product-content .button-group {
+	flex: 1;
+}
+.merchant-product-detail .wishlist {
+	padding: 35px 0 25px;
+	border-bottom: 1px solid #3d3d3d;
+}
+.merchant-product-detail .wishlist a {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+.merchant-product-detail .wishlist a i {
+	font-size: 25px;
+	margin-right: 10px;
+}
+.merchant-product-detail .product-box .product-content .price h3 {
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 0px;
+	line-height: 30px;
+}
+.merchant-product-detail ul.details {
+	padding: 20px 0 0;
+	list-style: none;
+	margin: 0;
+}
+.merchant-product-detail ul.details li {
+	margin-bottom: 8px;
+}
+.merchant-product-detail ul.details li span.property {
+	margin-right: 5px;
+}
+.merchant-product-detail ul.details li.last {
+	margin-top: 35px;
+}
+.merchant-product-detail ul.details li.last p {
+	color: #666666;
+}
+.merchant-product-detail ul.details li.last p a {
+	color: #d5920a;
+	margin-left: 6px;
+	text-decoration: none;
+}
+.reviews-and-rating {
+	padding: 0px 0 80px;
+}
+.reviews-and-rating .title {
+	padding-bottom: 20px;
+}
+.reviews-and-rating .title h3 {
+	color: #ffc06d;
+	font-size: 25px;
+}
+.reviews-and-rating .total-rating h2 {
+	font-size: 52px;
+	font-weight: 700;
+}
+.reviews-and-rating .total-rating ul.stars {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.reviews-and-rating .total-rating ul.stars li {
+	display: inline-block;
+	color: #ff9f00;
+	margin-right: 7px;
+	font-size: 18px;
+}
+.reviews-and-rating .total-rating p {
+	margin: 2px 0 0 0;
+	line-height: 26px;
+}
+.reviews-and-rating .progrree-bar {
+	display: flex;
+}
+.reviews-and-rating .progress-bar-rating {
+	display: flex;
+}
+.reviews-and-rating .progress-bar-rating .progress {
+	flex: 1;
+}
+.reviews-and-rating .progress-bar-rating label {
+	margin: 0;
+	width: 160px;
+}
+.reviews-and-rating .progress-bar-rating .progress .progress-bar {
+	height: 0.6rem;
+	background: #ff9f00;
+}
+.reviews-and-rating .progress-bar-rating .progress {
+	height: 0.5rem;
+	background: #fff;
+}
+.reviews-and-rating .all-reviews .review-box .topbar {
+	display: flex;
+	align-items: center;
+}
+.reviews-and-rating .all-reviews .review-box .topbar ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+.reviews-and-rating .all-reviews .review-box .topbar ul li {
+	display: inline-block;
+	color: #ff9f00;
+	margin-right: 4px;
+}
+.reviews-and-rating .all-reviews .review-box .rating {
+	display: flex;
+}
+.reviews-and-rating .all-reviews .review-box .rating p {
+	margin-left: 3px;
+	font-size: 16px;
+	color: #fff;
+}
+.reviews-and-rating .all-reviews .review-box .topbar h3 {
+	margin: 0 0 3px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.reviews-and-rating .all-reviews .review-box .topbar .name {
+	margin-left: 15px;
+}
+.reviews-and-rating .all-reviews .review-box {
+	margin-bottom: 40px;
+}
+.reviews-and-rating .all-reviews .review-box p {
+	font-size: 16px;
+	color: #f5f5f58f;
+}
+.reviews-and-rating .button-group {
+	text-align: center;
+}
+.reviews-and-rating .button-group button.btn {
+	background: #f5f5f5;
+	color: #343434;
+	font-weight: 600;
+	padding: 7px 60px;
+	transition: 0.6s;
+}
+.reviews-and-rating .button-group button.btn:hover {
+	background: #514f4f;
+	color: #fff;
+}
+.related-product {
+	padding: 0 0 50px;
+}
+.related-product .title-wrapper {
+	padding-bottom: 20px;
+}
+.related-product .title-wrapper h3 {
+	font-size: 25px;
+	font-family: "Poppins";
+}
+.write-review {
+	padding: 0 0 40px;
+}
+.write-review .heading-wrapper {
+	padding-bottom: 15px;
+}
+.write-review .heading-wrapper h2 {
+	font-family: "nexa-bold";
+	font-size: 25px;
+}
+.write-review .reviewBox {
+	display: flex;
+	align-items: center;
+}
+.write-review .reviewBox figure img {
+	max-width: 140px;
+}
+.write-review .reviewBox .content {
+	padding-left: 30px;
+}
+.write-review .reviewBox figure {
+	margin: 0;
+}
+.write-review .reviewBox .content h4 {
+	font-family: "Montserrat";
+	margin-bottom: 12px;
+}
+.write-review .reviewBox .content p {
+	margin: 0;
+	font-size: 14px;
+	color: #c5c5c5;
+}
+.write-review form {
+	margin: 30px 0;
+}
+.write-review form .rating label {
+	margin-right: 10px;
+}
+.write-review form .rating label span.MuiRating-iconEmpty {
+	color: rgb(169 169 169 / 27%);
+}
+.write-review .upload-photo {
+	margin: 30px 0;
+}
+.write-review .upload-photo .upload-box {
+	background: #2d2d2d;
+	padding: 50px 0;
+	border: 2px dashed #707070;
+	text-align: center;
+}
+.write-review .upload-photo .upload-box svg {
+	margin-bottom: 10px;
+}
+.write-review .upload-photo .upload-box p {
+	margin: 0;
+	color: #ffffff8a;
+	font-family: "Montserrat";
+}
+.write-review textarea.form-control {
+	background: #2d2d2d;
+	border: 0;
+	padding: 15px 15px;
+	border-radius: 5px;
+	resize: none;
+	height: 230px;
+}
+.write-review textarea.form-control::placeholder {
+	font-size: 12px;
+	color: #c5c5c5;
+}
+.write-review p.instruction {
+	margin: 22px 0 0 0;
+	font-family: "Poppins";
+	color: #727272;
+	font-weight: 400;
+}
+.write-review .button-group {
+	text-align: end;
+}
+.write-review .button-group button.btn {
+	background: #ff9f00;
+	font-size: 15px;
+	font-family: "Poppins";
+	color: #000;
+	font-weight: 500;
+	padding: 10px 90px;
+}
+/* Merchant Product Detail Css Start Here */

@@ -1,0 +1,121 @@
+/* Thank You Css Start Here */
+.thank-you {
+	padding: 60px 0;
+}
+.thank-you .heading-wrapper {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.thank-you .heading-wrapper h2 {
+	font-size: 35px;
+	font-weight: 700;
+}
+.thank-you .heading-wrapper h4 {
+	color: #d4d4d4b0;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.thank-you .heading-wrapper h3.orderno {
+	color: #fb7c1b;
+	font-weight: 600;
+	font-size: 25px;
+}
+.thank-you .thank-you-box {
+	border: 1px solid #707070;
+	border-radius: 15px;
+	padding: 60px 80px 20px;
+}
+.thank-you .thank-you-box h3.title {
+	font-size: 20px;
+	color: #d4d4d4;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.thank-you .thank-you-box ul.details {
+	padding: 0 0 20px;
+	list-style: none;
+	border-bottom: 1px solid #707070;
+}
+.thank-you .thank-you-box ul.details li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.thank-you .thank-you-box ul.details li h4.property {
+	font-size: 17px;
+	font-weight: 500;
+	color: #d4d4d4;
+	width: 90px;
+	margin: 0;
+}
+.thank-you .thank-you-box ul.details lifo span.value {
+	font-size: 17px;
+}
+.thank-you .thank-you-box ul.details li span.value {
+	color: #d4d4d4;
+}
+.thank-you .thank-you-box h4.title {
+	font-size: 20px;
+	color: #d4d4d4;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.thank-you-box ul.payment-detail {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #707070;
+}
+.thank-you-box ul.payment-detail li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.thank-you-box ul.payment-detail li h4.property {
+	margin: 0;
+	font-size: 17px;
+	font-weight: 500;
+	color: #d4d4d4;
+	margin: 0;
+}
+.thank-you-box ul.payment-detail li span.value {
+	color: #d4d4d4;
+}
+.thank-you-box .total-amount {
+	padding: 20px 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.thank-you-box .total-amount h4 {
+	margin: 0;
+	font-size: 20px;
+}
+.thank-you-box .total-amount h4.colored {
+	color: #fb7c1b;
+}
+.thank-you-box .total-amount h4.total {
+	color: #d4d4d4;
+}
+.thank-you .button-group {
+	margin-top: 20px;
+}
+.thank-you .button-group a.btn {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	font-size: 15px;
+	color: #ffffff;
+	padding: 13px 50px;
+	width: 60%;
+	border-radius: 10px;
+	font-weight: 500;
+}
+/* Thank You Css End Here */

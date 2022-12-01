@@ -1,0 +1,152 @@
+header.login-header {
+	position: absolute;
+	padding: 23px 0px;
+	width: 100%;
+}
+.login-sec {
+	background-image: url("../img/auth-bg.png");
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+}
+.login-sec .login-card-wrapper .login-heading-wrapper h3 {
+	text-align: center;
+	font-family: "Nexa-bold";
+	font-size: 32px;
+	font-weight: 700;
+}
+.login-sec .login-card-wrapper .form-check .form-check-label {
+	color: #e0d9ec;
+	font-size: 16px;
+	font-weight: 400;
+}
+.login-sec .login-card-wrapper .form-group {
+	position: relative;
+}
+.login-sec .login-card-wrapper .form-group span {
+	position: absolute;
+	top: 23%;
+	right: 3%;
+}
+.login-sec .login-card-wrapper .login-heading-wrapper {
+	margin: 20px 0px;
+}
+.login-sec .login-card-wrapper {
+	background: #bdbdbd3d;
+	padding: 56px;
+	border-radius: 17px;
+	-webkit-backdrop-filter: blur(43px);
+	backdrop-filter: blur(43px);
+}
+.login-sec .login-card-wrapper .btn {
+	background-image: linear-gradient(
+		to right,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	color: #ffffff;
+	font-size: 18px;
+	font-family: "nexa-regular";
+	font-weight: 700;
+	margin: 10px auto;
+	display: block;
+	padding: 9px 65px;
+	border: 0px;
+	border-radius: 31px;
+}
+.login-sec .login-card-wrapper .forget-pass-text a {
+	color: #dcd4ec;
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+}
+.login-sec .login-card-wrapper .form-control {
+	padding: 20px;
+	border-radius: 30px;
+	font-family: "nexa-regular";
+	height: 48px;
+	margin-bottom: 30px;
+}
+.login-sec .login-card-wrapper .form-control::placeholder {
+	color: #434242;
+}
+.login-sec .login-form-wrapper .DigitCode {
+	display: flex;
+	justify-content: center;
+}
+.login-sec .login-form-wrapper .DigitCode input {
+	height: 44px;
+	width: 44px;
+	border-radius: 6px;
+	padding: 0px;
+	margin: 7px;
+}
+.Create-account .login-card-wrapper .form-control {
+	margin-bottom: 10px;
+}
+.Create-account select.form-control {
+	padding: 8px !important;
+}
+.Create-account button.btn {
+	margin: 0px !important;
+}
+.Create-account p {
+	font-size: 11px;
+}
+.Create-Email-Address p {
+	font-size: 16px;
+}
+.Create-Your-Profile button.btn {
+	margin: 0px auto !important;
+}
+.Create-account .img-wrapper .upload__image-wrapper {
+	width: 121px;
+	height: 121px;
+	background: #fff;
+	border-radius: 50%;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.Create-account .upload__image-wrapper ruby {
+	color: #000;
+	font-size: 12px;
+	font-weight: 500;
+	font-family: "Poppins";
+}
+.Create-account .img-wrapper .upload__image-wrapper button {
+	background: transparent;
+	border: 0px;
+}
+.Create-account .img-wrapper .image-item img {
+	width: 121px;
+	height: 121px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+.Create-account .upload__image-wrapper {
+	position: relative;
+}
+.login-sec .Create-Your-Profile button.btn {
+	margin: 0px auto !important;
+}
+.login-sec .Create-Your-Profile {
+	width: 50%;
+	margin: 0px auto;
+	padding: 15px 40px 50px 40px;
+}
+.Create-Email-Address button.btn {
+	margin: 0px auto !important;
+}
+.login-sec .css-m5vj9m-MuiStepper-root {
+	opacity: 0;
+}

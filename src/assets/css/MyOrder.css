@@ -1,0 +1,132 @@
+/* Order Css Start Here */
+.orders {
+	padding: 80px 0;
+}
+.orders .heading-wrapper {
+	padding-bottom: 20px;
+	text-align: center;
+}
+.orders .heading-wrapper h2 {
+	color: #f9b84c;
+}
+.orders table th {
+	border: 0;
+}
+.orders table td {
+	border: 0;
+}
+.orders .table-responsive {
+	background: #292929;
+	padding: 40px 80px;
+	border-radius: 20px;
+	margin-bottom: 40px;
+}
+.orders .table-responsive thead {
+	background: #ffffff17;
+}
+.orders .table-responsive thead th {
+	padding: 15px 30px;
+	color: #ffffff;
+	font-family: "Poppins";
+	font-weight: 500;
+	text-align: center;
+	border: 0;
+}
+.orders .table-responsive tr td {
+	vertical-align: middle;
+	background: #ffffff42;
+	color: #fff;
+	text-align: center;
+	padding: 17px 10px;
+}
+.orders .table-responsive tr td.pymntstatus {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.orders .table-responsive p {
+	margin: 0;
+}
+.orders .table-responsive tr td.view a {
+	font-size: 14px;
+	color: #f9b84c;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-decoration: underline;
+}
+.orders .table-responsive table {
+	border-collapse: inherit;
+	border-spacing: 0px 15px;
+}
+.orders .table-responsive tr td.pymntstatus p {
+	margin-right: 5px;
+}
+.orders ul.pagination {
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+}
+.orders ul.pagination li.arrow i {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 25px;
+	font-weight: 700;
+	width: 30px;
+	margin: 0 5px;
+	text-align: center;
+}
+.orders ul.pagination {
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+}
+.orders ul.pagination li.arrow i {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 25px;
+	font-weight: 700;
+	width: 30px;
+	margin: 0 5px;
+	text-align: center;
+}
+.orders ul.pagination li.pagi a {
+	color: #000;
+	background: #ffffff;
+	width: 30px;
+	text-align: center;
+	margin: 0 3px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+.orders ul.pagination li.pagi.active a {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	color: #fff;
+}
+/* Order Css End Here */

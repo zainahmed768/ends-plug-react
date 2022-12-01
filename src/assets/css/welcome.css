@@ -1,0 +1,68 @@
+.welcome-sec {
+	background-image: url("../img/auth-bg.png");
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.welcome-sec .welcome-content-wrapper {
+	text-align: center;
+}
+.welcome-content-wrapper .welcome-heading-wrapper h2 {
+	color: #f9b84c;
+	font-family: "Poppins";
+	font-size: 42px;
+	font-weight: 600;
+}
+.welcome-sec .social-btn-wrapper a.btn {
+	width: 48%;
+	margin: 0px 5px 9px 0px;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	border-radius: 8px;
+}
+.welcome-sec .social-btn-wrapper a.btn.apple {
+	background: #202020;
+	color: #fff;
+}
+.welcome-sec .social-btn-wrapper a.btn i,
+.welcome-sec .social-btn-wrapper a.btn img {
+	margin-right: 9px;
+}
+.welcome-sec .social-btn-wrapper a.btn.Google {
+	background-color: #ffffff;
+	color: #3e3e3e;
+}
+.welcome-sec .social-btn-wrapper a.btn.facbook {
+	background-color: #0c66ff;
+	color: #ffffff;
+}
+.welcome-sec .social-btn-wrapper a.create-account {
+	background-color: #ffffff;
+	color: #b70051;
+}
+
+.welcome-sec .social-btn-wrapper {
+	display: flex;
+	flex: 0 0 50%;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+.welcome-content-wrapper .already-account p {
+	margin-top: 31px;
+	color: #9580a0;
+	font-weight: 400;
+	font-size: 17px;
+}
+.welcome-content-wrapper .already-account p a {
+	color: #fff;
+}
+.welcome-sec .welcome-content-wrapper .divider {
+	width: 135px;
+	height: 5px;
+	background: #fff;
+	border-radius: 27px;
+	margin: 0px auto;
+	margin-top: 33px;
+}

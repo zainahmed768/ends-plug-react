@@ -1,0 +1,37 @@
+/* Problem Css Start Here */
+.problem {
+	padding: 100px 0 180px;
+}
+.problem .heading {
+	padding-bottom: 20px;
+	text-align: center;
+}
+.problem .heading h2 {
+	font-weight: 600;
+	font-family: "nexa-bold";
+}
+.problem form .form-control {
+	padding: 22px 30px;
+	border-radius: 50px;
+}
+.problem form textarea {
+	border-radius: 15px !important;
+	height: 180px;
+}
+.problem form button.btn {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 60px;
+	margin-top: 15px;
+	border-radius: 50px;
+	font-family: "nexa-bold";
+}
+/* Problem Css End Here */

@@ -1,0 +1,124 @@
+/* Wallet Css Start Here */
+.wallet-sec {
+	padding: 80px 0 150px;
+}
+.wallet-sec .wallet-box {
+	background: #292929;
+	padding: 40px 100px;
+	border-radius: 15px;
+}
+.wallet-sec .wallet-box .heading-wrapper {
+	padding-bottom: 20px;
+	text-align: center;
+}
+.wallet-sec .wallet-box .heading-wrapper h2 {
+	font-family: "nexa-bold";
+}
+.wallet-sec .wallet-box ul.prices {
+	list-style: none;
+	margin: 0 0 70px;
+	border: 2px solid #333333;
+	border-radius: 15px;
+	padding: 13px 20px;
+}
+.wallet-sec .wallet-box ul.prices li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 2px solid #333333;
+	padding: 8px 15px 0;
+}
+.wallet-sec .wallet-box ul.prices li span.property {
+	color: #f9b84c;
+}
+.wallet-sec .wallet-box ul.prices li:last-child {
+	border: 0;
+}
+.wallet-sec .wallet-box .bottom p {
+	margin: 0 0 5px;
+}
+.wallet-sec .wallet-box .bottom {
+	padding-left: 40px;
+}
+.wallet-sec .wallet-box .bottom p a {
+	color: #fff;
+	text-decoration: none;
+}
+#referalCode .modal-header {
+	border: 0;
+	padding: 0;
+}
+#referalCode .modal-content {
+	background: #232323;
+	border-radius: 12px;
+}
+#referalCode .modal-dialog {
+	max-width: 450px;
+}
+#referalCode .modal-content .referal {
+	text-align: center;
+	padding: 40px 50px;
+}
+#referalCode .modal-content .referal .heading {
+	padding-bottom: 20px;
+}
+#referalCode .modal-content .referal .heading h2 {
+	color: #f9b84c;
+	font-family: "nexa-bold";
+}
+#referalCode .modal-content .referal label {
+	padding-bottom: 5px;
+}
+#referalCode .modal-content .referal .form-control {
+	text-align: center;
+	background: transparent;
+	outline: none;
+	box-shadow: none;
+	border: 0;
+	font-family: "nexa-bold";
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 14px;
+}
+#referalCode .modal-content .referal button {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	font-size: 14px;
+	color: #ffffff;
+	padding: 12px 50px;
+	margin-top: 15px;
+	width: 100%;
+	border-radius: 8px;
+	border: 0;
+}
+.wallet-sec .wallet-box button.btn.btn-primary {
+	padding: 0;
+	margin: 0;
+	box-shadow: none;
+	outline: none;
+	background: transparent;
+	border: 0;
+}
+#referalCode .modal-header button.btn-close {
+	background: #dd4141;
+	border: 0;
+	outline: none;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+}
+.wallet-sec .wallet-box .heading-wrapper a {
+	color: #fff;
+	text-decoration: none;
+}
+/* Wallet Css End Here */

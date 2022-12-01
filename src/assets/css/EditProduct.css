@@ -1,0 +1,68 @@
+/* Product Css Start Here */
+.eidt-product {
+	padding: 60px 0;
+}
+.eidt-product .edit-product-box {
+	background: #242526;
+	padding: 30px 80px;
+	border-radius: 8px;
+}
+.eidt-product .heading-wrapper {
+	padding-bottom: 10px;
+}
+.eidt-product .heading-wrapper h3 {
+	font-size: 32px;
+	color: #f9b84c;
+	font-family: "nexa-bold";
+}
+.eidt-product .form-group .form-control {
+	background: #313233;
+	border: 0;
+	padding: 5px 30px;
+	height: 45px;
+	border-radius: 50px;
+	font-size: 16px;
+	font-family: "Poppins";
+	font-style: italic;
+	color: #ffffff6b;
+	box-shadow: none;
+}
+.eidt-product .input-group .form-group {
+	background: #313233;
+	margin-right: 10px;
+	height: 90px;
+	border: 2px solid #707070;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	width: 10%;
+	flex-wrap: wrap;
+}
+.eidt-product .input-group .form-group {
+	background: transparent;
+}
+.eidt-product .input-group .form-group label {
+	cursor: pointer;
+}
+.eidt-product .form-group textarea {
+	height: 160px !important;
+	border-radius: 15px !important;
+	resize: none;
+	padding-top: 10px !important;
+}
+.eidt-product .button-group .btn {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	font-size: 14px;
+	color: #ffffff;
+	padding: 9px 50px;
+	margin-top: 15px;
+}
+/* Product Css End Here */

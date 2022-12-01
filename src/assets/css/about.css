@@ -1,0 +1,19 @@
+.about-sec {
+	padding: 100px 0px;
+}
+
+.about-sec .content-wrapper {
+	text-align: center;
+}
+
+.about-sec .content-wrapper h2 {
+	color: #f9b84c;
+	font-family: "Nexa-Bold";
+	font-size: 32px !important;
+	margin-bottom: 20px;
+}
+.about-sec p {
+	font-family: "nexa-regular";
+	font-size: 18px;
+	font-weight: 400;
+}

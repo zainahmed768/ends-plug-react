@@ -1,0 +1,515 @@
+/* Wallet Dashboard Css Start Here */
+.wallet-dashboard-sec {
+	padding: 60px 0 120px;
+}
+
+.wallet-dashboard-sec .wallet-sdiebar {
+	background: #292929;
+	padding: 30px 20px;
+	height: 100%;
+	position: relative;
+	border-radius: 10px;
+}
+
+.wallet-dashboard-sec .wallet-sdiebar .heading {
+	border-bottom: 1px solid #303030;
+}
+
+.wallet-dashboard-sec .wallet-sdiebar .heading h3 {
+	font-family: "nexa-bold";
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.wallet-dashboard-sec .wallet-sdiebar ul.wallert-list {
+	padding: 20px 0;
+	margin: 0;
+	list-style: none;
+}
+
+.wallet-dashboard-sec .wallet-sdiebar ul li a {
+	font-size: 14px;
+	color: #929292;
+	text-decoration: none;
+}
+
+.wallet-dashboard-sec .wallet-sdiebar ul li a.menu-link.active {
+	color: #fff;
+}
+
+.wallet-dashboard-sec .wallet-sdiebar ul li {
+	margin: 8px 0;
+}
+
+.wallet-dashboard-sec .wallet-sdiebar ul.bottom-links {
+	padding: 10px 0 30px;
+	list-style: none;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #303030;
+	width: 80%;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+}
+
+.wallet-dashboard-sec .detail-box {
+	background: #e13efc;
+	padding: 25px 18px;
+	border-radius: 8px;
+}
+
+.detail-box.blue-box {
+	background-image: linear-gradient(to bottom,
+			#00bcff,
+			#00acfe,
+			#009afa,
+			#0088f5,
+			#0075ec);
+}
+
+.wallet-dashboard-sec .detail-box.purple-box {
+	background-image: linear-gradient(to bottom,
+			#e13efc,
+			#bd30e3,
+			#9921ca,
+			#7711b0,
+			#560097);
+}
+
+.wallet-dashboard-sec .detail-box.peach-box {
+	background-image: linear-gradient(to bottom,
+			#fb9055,
+			#ff8665,
+			#ff7d76,
+			#ff7688,
+			#fd739a);
+}
+
+.wallet-dashboard-sec .detail-box.orange-box {
+	background-image: linear-gradient(to bottom,
+			#fe5b25,
+			#fe6c1e,
+			#fd7c18,
+			#fb8b14,
+			#f99914);
+}
+
+.total-coins .button-group button.btn.blue-color {
+	background-image: linear-gradient(to bottom,
+			#00bcff,
+			#00acfe,
+			#009afa,
+			#0088f5,
+			#0075ec);
+}
+
+.wallet-dashboard-sec .detail-box h2.count {
+	margin: 0;
+	font-family: "nexa-bold";
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.wallet-dashboard-sec .detail-box button.btn {
+	color: #fff;
+	padding: 0;
+	outline: none;
+}
+
+.wallet-dashboard-sec .detail-box h5.sub-title {
+	font-size: 15px;
+	font-family: "nexa-bold";
+	margin: 0;
+}
+
+.my-transaction {
+	margin: 30px 0 0 0;
+}
+
+.my-transaction .title {
+	padding-bottom: 10px;
+}
+
+.all-transaction::-webkit-scrollbar {
+	width: 0em;
+}
+
+.my-transaction .transaction-box {
+	display: flex;
+	justify-content: space-between;
+	background: #2c2b2b;
+	margin-bottom: 5px;
+	padding: 7px 25px;
+	border-radius: 10px;
+}
+
+.my-transaction .transaction-box p {
+	margin: 0;
+}
+
+.my-transaction .transaction-box p.comment {
+	width: 40%;
+	font-family: "nexa-light";
+	font-size: 14px;
+}
+
+.my-transaction .transaction-box p.date {
+	font-size: 14px;
+	color: #929292;
+}
+
+.my-transaction .transaction-box p.price {
+	font-size: 14px;
+	font-family: "nexa-light";
+}
+
+.my-transaction .transaction-box p.price span.plus {
+	color: #00ff11;
+}
+
+.my-transaction .transaction-box p.price span.minus {
+	color: #ff0000;
+}
+
+.my-transaction .see-more a {
+	color: #929292;
+	text-decoration: none;
+}
+
+/* Wallet Dashboard Sec Css End Here */
+
+/* Wallet Coin Css Start Here */
+.referal-code {
+	background-image: url("../img/refer-back.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 165px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+}
+
+.nugs_sec .referal-code {
+	background-image: url("../img/wallet-nug.png");
+}
+
+.referal-code .title {
+	text-align: center;
+	max-width: 70%;
+	margin: 0px auto;
+	background: #ffffff33;
+	padding: 18px 0;
+	backdrop-filter: blur(20px);
+	border-radius: 10px;
+}
+
+.referal-code .title h4 {
+	margin: 0;
+}
+
+.total-coins {
+	background: #1c1c1c;
+	padding: 25px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.total-coins h2 {
+	font-family: "nexa-bold";
+	color: #ffffff;
+	font-size: 37px;
+}
+
+.total-coins h2 img.img-fluid {
+	margin-left: 10px;
+}
+
+.total-coins .button-group button.btn {
+	background: #fd739a;
+	padding: 9px 45px;
+	border-radius: 50px;
+	font-family: "nexa-bold";
+	color: #fff;
+}
+
+.total-coins .button-group button.btn.peach-color {
+	margin-right: 20px;
+	background-image: linear-gradient(to bottom,
+			#fb9055,
+			#ff8665,
+			#ff7d76,
+			#ff7688,
+			#fd739a);
+}
+
+/* Wallet Coin Css Start Here */
+
+/* Payment Tab Css Start Here */
+.wallet-dashboard-sec .switch {
+	position: relative;
+	/* display: inline-block; */
+	/* height: 18px; */
+	/* width: 40px; */
+	width: 100%;
+}
+
+.wallet-dashboard-sec .switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.wallet-dashboard-sec .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: unset;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	transition: 0.4s;
+	border-radius: 50px;
+	width: 40px;
+	height: 18px;
+}
+
+.wallet-dashboard-sec .slider:before {
+	position: absolute;
+	content: "";
+	height: 13px;
+	width: 13px;
+	border-radius: 50px;
+	bottom: 4px;
+	background-color: #fd6222;
+	transition: 0.4s;
+	top: 2px;
+	right: 23px;
+}
+
+.wallet-dashboard-sec input:checked+.slider {
+	background-color: #fd6222;
+}
+
+.wallet-dashboard-sec input:focus+.slider {
+	box-shadow: 0 0 1px #2196f3;
+}
+
+.wallet-dashboard-sec input:checked+.slider:before {
+	transform: translateX(20px);
+	background: #fff;
+}
+
+.component-atm-card-container.lifted div.component-atm-card {
+	background-image: url("../img/card-back.png");
+	background-size: cover;
+}
+
+.component-atm-card-container.lifted div.component-atm-card {
+	width: 100% !important;
+}
+
+.wallet-dashboard-sec .component-atm-card-container .component-atm-card-bank h1 {
+	font-size: 16px;
+}
+
+.wallet-dashboard-sec .component-atm-card-container .component-atm-card-number div {
+	font-size: 11px;
+	justify-content: left;
+	margin: 0px 10px 0px 0px;
+}
+
+.wallet-dashboard-sec .component-atm-card-container .expired-dates {
+	font-size: 12px;
+}
+
+.wallet-dashboard-sec .component-atm-card-container .component-atm-card-holder div {
+	font-size: 15px;
+	font-family: "nexa-bold";
+	text-shadow: 1px 1px black;
+}
+
+.wallet-dashboard-sec .component-atm-card-container .component-atm-card {
+	height: 200px !important;
+}
+
+.wallet-dashboard-sec .component-atm-card-container .component-atm-card-number {
+	margin-top: -40px;
+}
+
+.wallet-dashboard-sec .component-atm-card-date {
+	bottom: 28%;
+}
+
+.component-atm-card.back {
+	background-image: url("../img/card-back.png") !important;
+	background-size: cover;
+}
+
+.component-atm-card.back .component-atm-card-bank-back h1 {
+	font-size: 18px;
+}
+
+.wallet-dashboard-sec .heading h3 {
+	font-size: 20px;
+	font-family: "nexa-bold";
+}
+
+.wallet-dashboard-sec .total-balance {
+	padding-top: 30px;
+}
+
+.wallet-dashboard-sec .total-balance .balance h4 {
+	font-size: 22px;
+}
+
+.wallet-dashboard-sec .total-balance .balance h2 {
+	font-size: 50px;
+	font-family: "nexa-bold";
+}
+
+.wallet-dashboard-sec .total-balance .button-group button.btn {
+	background: #fd739a;
+	padding: 9px 45px;
+	border-radius: 50px;
+	font-family: "nexa-bold";
+	color: #fff;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.wallet-dashboard-sec .total-balance .button-group button.btn.peach-btn {
+	background-image: linear-gradient(to bottom,
+			#fb9055,
+			#ff8665,
+			#ff7d76,
+			#ff7688,
+			#fd739a);
+}
+
+.wallet-dashboard-sec .total-balance .button-group button.btn.blue-btn {
+	background-image: linear-gradient(to bottom,
+			#00bcff,
+			#00acfe,
+			#009afa,
+			#0088f5,
+			#0075ec);
+}
+
+.wallet-dashboard-sec .button-group button.add-new-card {
+	border: 1px solid #e8e8e8;
+	background: transparent;
+	box-shadow: none;
+	outline: none;
+	font-family: "nexa-bold";
+	color: #fff;
+	font-size: 18px;
+	padding: 8px 40px;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+
+.wallet-dashboard-sec .switch h5.status {
+	color: #000;
+	font-size: 14px;
+}
+
+.wallet-dashboard-sec .switch input:checked~h5.status {
+	color: #929292 !important;
+}
+
+#converter .modal-dialog {
+	max-width: 600px;
+}
+
+#Converter .modal-dialog {
+	max-width: 600px;
+}
+
+#Converter .modal-dialog .modal-content {
+	background-image: linear-gradient(to bottom, #fb9055, #ff8665, #ff7d76, #ff7688, #fd739a);
+	border-radius: 10px;
+}
+
+#Converter .modal-dialog .modal-content .modal-header {
+	border: 0;
+	padding: 0;
+}
+
+#Converter .modal-dialog .modal-content .modal-header button.btn-close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border: 0;
+	background: transparent;
+	padding: 0;
+	z-index: 99;
+}
+
+#Converter .modal-dialog .modal-content .modal-header button.btn-close svg {
+	width: 35px;
+	height: 35px;
+	fill: #fff;
+}
+
+#Converter .modal-dialog .modal-content .currency_converter .title {
+	padding-bottom: 20px;
+}
+
+#Converter .modal-dialog .modal-content .currency_converter .input-fields {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#Converter .modal-dialog .modal-content .currency_converter .input-fields .form-group {
+	flex: 1 1;
+	margin-right: 10px;
+	margin-bottom: 0;
+	position: relative;
+}
+
+#Converter .modal-dialog .modal-content .currency_converter .input-fields .form-group img.img-fluid {
+	position: absolute;
+	top: 11px;
+	right: 15px;
+}
+
+#Converter .modal-dialog .modal-content .currency_converter .input-fields span.seprator {
+	margin-right: 10px;
+}
+
+#Converter .modal-dialog .modal-content .currency_converter .input-fields .form-group .form-control {
+	border-radius: 50px;
+	border: 0;
+	height: 45px;
+	padding: 0 20px;
+	font-size: 14px;
+	color: #000;
+	background: #fff;
+}
+
+#Converter .modal-dialog .modal-content .currency_converter .input-fields .form-group .form-control::placeholder {
+	font-size: 14px;
+	color: #000;
+}
+
+#Converter .modal-dialog .modal-content .currency_converter .button-group button.converter-btn {
+	border: 0;
+	background: linear-gradient(to bottom, #00bcff, #00acfe, #009afa, #0088f5, #0075ec);
+	width: 35%;
+	padding: 12px 0;
+	border-radius: 50px;
+	margin-top: 20px;
+	color: #fff;
+}
+
+#Converter .modal-dialog .modal-content .currency_converter {
+	padding: 20px 15px;
+}
+
+/* Payment Tab Css End Here */

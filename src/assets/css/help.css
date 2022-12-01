@@ -1,0 +1,82 @@
+/* Faqs Css Start Here */
+.help-sec {
+	padding: 100px 0 5px;
+}
+.help-sec .heading {
+	padding-bottom: 20px;
+	text-align: center;
+}
+.help-sec .heading h2 {
+	font-family: "nexa-bold";
+}
+.help-sec .accordion-item {
+	background: #1c1c1c;
+	border-radius: 7px;
+	margin-bottom: 10px;
+}
+.help-sec .accordion-item button.accordion-button {
+	background: transparent;
+	color: #fff;
+	border: 0;
+	font-size: 18px;
+	font-family: "Poppins";
+	padding: 20px 30px;
+	width: 100%;
+	text-align: left;
+	border-radius: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.help-sec
+	.accordion-item
+	button.accordion-button[aria-expanded="true"]
+	i:before {
+	content: "\f106";
+}
+.help-sec .accordion-item .accordion-body p {
+	margin: 0;
+}
+.help-sec .accordion-item .accordion-body {
+	padding: 0px 30px 30px;
+}
+/* Faqs Css End Here */
+
+/* Query Css Start Here */
+.query_sec {
+	padding-bottom: 100px;
+}
+.query_sec .query-box {
+	background: #474747;
+	padding: 30px 50px;
+	text-align: center;
+	border-radius: 10px;
+}
+.query_sec .query-box h3 {
+	font-size: 22px;
+	line-height: 32px;
+}
+.query_sec .query-box p {
+	color: #ececec;
+	max-width: 40%;
+	margin: 0px auto;
+}
+.query_sec .query-box .button-group {
+	margin-top: 20px;
+}
+.query_sec .query-box .button-group button.btn {
+	background: #111111;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 8px 50px;
+	border-radius: 8px;
+}
+.query_sec .query-box .button-group button.btn.yes {
+	margin-right: 20px;
+}
+.query_sec .query-box .button-group button.btn.no {
+	background: #dbdbdb;
+	color: #3d3d3d;
+}
+/* Query Css End Here */

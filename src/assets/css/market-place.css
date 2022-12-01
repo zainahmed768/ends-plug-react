@@ -1,0 +1,89 @@
+/* Market Place Css Start Here */
+.market-place {
+	padding: 80px 0 40px;
+}
+.market-place .heading-wrapper {
+	padding-bottom: 5px;
+	text-align: center;
+}
+.market-place .heading-wrapper h2 {
+	color: #f9b84c;
+	font-family: "nexa-bold";
+}
+/* .market-place .title {
+	text-align: center;
+	padding-bottom: 20px;
+} */
+.market-place .category {
+	background: #1c1c1c;
+	padding: 15px 15px;
+}
+.market-place .category .cat-box {
+	background: #2a2a2a;
+	text-align: center;
+	border-radius: 10px;
+	border: 5px solid #1c1c1c;
+	padding: 10px 0;
+}
+.market-place .category .cat-box a {
+	text-decoration: none;
+}
+.market-place .category .cat-box h4 {
+	font-size: 16px;
+	font-family: "Poppins";
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+}
+.market-place .category .cat-box img {
+	margin: 0px auto;
+	width: 80px;
+	height: 80px;
+}
+.market-place .merchandise-sec {
+	padding-top: 50px;
+}
+.market-place .merchandise-sec .heading {
+	text-align: center;
+	color: #f9b84c;
+	font-family: "nexa-bold";
+	padding-bottom: 20px;
+}
+/* Market Place Css End Here */
+
+/* Market Place Banner Sec Css Start Here */
+.merchant-pro {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+.merchandise-banner {
+	padding: 110px 0;
+	background-image: url("../../assets/img/merchandise.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.merchandise-banner .title h2 {
+	background: #ffffff24;
+	font-family: "Poppins";
+	backdrop-filter: blur(13px);
+	padding: 15px 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 64px;
+	width: 90%;
+	margin: 0px auto;
+	text-align: center;
+}
+.merchant-pro .product-box .pro-img img {
+	width: 170px;
+	padding: 10px 0;
+}
+.merchant-pro ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.merchant-pro ul li {
+	display: inline-block;
+}
+/* Market Place Banner Sec Css End Here */

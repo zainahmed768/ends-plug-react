@@ -1,0 +1,204 @@
+/* Cart Css Start Here */
+.cart-sec {
+	padding: 60px 0;
+}
+.cart-sec .heading-wrapper {
+	padding-bottom: 40px;
+	text-align: center;
+	font-family: "nexa-bold";
+}
+.cart-sec .cart-box {
+	background: #292929;
+	padding: 25px 35px;
+	border-radius: 15px;
+	display: flex;
+	margin-bottom: 20px;
+}
+.cart-sec .cart-box .img-box {
+	background: #c7c7c7;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	border-radius: 10px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cart-sec .cart-box .img-box img {
+	width: 60%;
+}
+.cart-sec .cart-box .img-box .delete {
+	background: #ff3737;
+	width: 30px;
+	height: 30px;
+	line-height: 27px;
+	border-radius: 50%;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+.cart-sec .cart-box .img-box figure {
+	margin: 0;
+}
+.cart-sec .details {
+	padding-left: 20px;
+}
+.cart-sec .details h2.name {
+	color: #d4d4d4;
+	font-size: 26px;
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+.cart-sec .details p {
+	font-size: 13px;
+	color: #ffffffb0;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.cart-sec .details .bottom-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+}
+.cart-sec .details .bottom-bar .price {
+	display: flex;
+	align-items: center;
+}
+.cart-sec .details .bottom-bar .price h4 {
+	margin: 0 10px 0px 0px;
+	color: #f9b84c;
+	font-size: 20px;
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+.cart-sec .details .bottom-bar .price strike {
+	font-family: "Montserrat";
+}
+.cart-sec .details .bottom-bar .quantity {
+	display: flex;
+	align-items: center;
+}
+.cart-sec .details .bottom-bar .quantity .form-control {
+	border-radius: 0;
+	width: 40px;
+	text-align: center;
+	background: transparent;
+	padding: 0;
+	border: 0;
+	box-shadow: none;
+	font-size: 14px;
+	box-shadow: none;
+	color: #fff;
+}
+.cart-sec .details .bottom-bar .quantity button {
+	background: #fff;
+	border: 0;
+	width: 25px;
+	height: 26px;
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cart-sec .details .bottom-bar .price strike {
+	font-family: "Montserrat";
+}
+.cart-sec .apply-coupon {
+	border: 1px solid #b4b4b4;
+	padding: 25px 15px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+.cart-sec .apply-coupon .title h4 {
+	font-family: "nexa-bold";
+	font-size: 20px;
+}
+.cart-sec .apply-coupon .title p {
+	font-size: 14px;
+	color: #ffffff87;
+}
+.cart-sec .apply-coupon .form-group {
+	margin: 0;
+	display: flex;
+}
+.cart-sec .apply-coupon .form-group .form-control {
+	border: 1px solid #ffffff70;
+	background: transparent;
+	padding: 23px 15px;
+	font-size: 14px;
+}
+.cart-sec .apply-coupon .form-group .form-control::placeholder {
+	color: #ffffff61;
+	font-style: italic;
+}
+.cart-sec .apply-coupon .form-group button.btn {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 35px;
+	border-radius: 7px;
+	margin-left: 10px;
+}
+.cart-sec .total {
+	border: 1px solid #b4b4b4;
+	padding: 25px 15px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+.cart-sec .total ul.total-price {
+	padding: 0;
+	list-style: none;
+	padding-bottom: 15px;
+}
+.cart-sec .total ul.total-price li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.cart-sec .total ul.total-price li span {
+	font-size: 18px;
+	font-family: "Poppins";
+}
+.cart-sec .total .payable {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid #707070;
+	padding-top: 32px;
+}
+.cart-sec .total .payable h4 {
+	font-size: 20px;
+	font-family: "Poppins";
+	font-weight: 600;
+}
+.cart-sec .right-side a.btn-checkout {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	font-size: 16px;
+	color: #ffffff;
+	padding: 10px 35px;
+	border-radius: 7px;
+	height: 43px;
+	font-weight: 600;
+}
+/* Cart Css End Here */

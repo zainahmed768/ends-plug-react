@@ -1,0 +1,65 @@
+/* .member-sec {
+	background-image: url("../img/auth-bg.png");
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+} */
+.member-sec .member-wrapper {
+	background: #fff;
+	border-radius: 17px;
+}
+.member-sec .member-img-wrapper figure {
+	position: relative;
+	margin: 0px;
+}
+.member-sec .member-img-wrapper figure img.video-btn {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.member-sec .member-wrapper .member-content-wrapper {
+	padding: 20px 113px;
+	text-align: center;
+}
+.member-sec .member-wrapper h5 {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 500;
+}
+.member-sec .member-wrapper .member-content-wrapper p {
+	color: #a8a8a8;
+	font-size: 12px;
+}
+.member-sec .member-wrapper .btn-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.member-sec .member-wrapper .btn-wrapper button {
+	display: inline-block;
+}
+.member-sec .member-wrapper .btn-wrapper button {
+	background: transparent;
+	border: 0px;
+	color: #3d3d3d;
+	font-size: 16px;
+	font-weight: 400;
+}
+.member-sec .member-wrapper .btn-wrapper button.btn {
+	background: #000000;
+	padding: 10px 20px;
+	width: 275px;
+	margin: 9px auto !important;
+	color: #fff;
+	font-size: 12px;
+}
+.member-sec .member-wrapper .btn-wrapper button {
+	background: transparent;
+	border: 0px;
+	color: #3d3d3d;
+	font-size: 12px;
+	font-weight: 400;
+}

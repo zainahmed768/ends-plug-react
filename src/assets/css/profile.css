@@ -1,0 +1,378 @@
+/* Profile Css Start Here */
+.profile-sec {
+	padding: 50px 0;
+}
+.edit-profile .edit-profile-form .close-btn {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.edit-profile .edit-profile-form .close-btn a {
+	background: transparent;
+	border: 0;
+	color: #fff;
+}
+.edit-profile .edit-profile-form .close-btn a svg {
+	width: 35px;
+	height: 35px;
+}
+.profile-sec .profile-info {
+	display: flex;
+	align-items: center;
+}
+.profile-sec .profile-info .profile-img {
+	max-width: 200px;
+}
+.profile-sec .profile-info .info {
+	padding-left: 20px;
+}
+.profile-sec .profile-info .info h3.username {
+	margin: 0 0 7px 0;
+}
+.profile-sec .profile-info .info p {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.profile-sec .profile-info .info p span:last-child {
+	margin-left: 15px;
+}
+.profile-sec .profile-info .info p span {
+	color: #bfbfbf;
+}
+.profile-sec .profile-info .info button.btn.btn-primary {
+	border: 0;
+	background: transparent;
+	padding: 0;
+	font-size: 16px;
+	color: #bfbfbf;
+}
+.profile-sec .profile-info .info p.bio a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.profile-sec .profile-info .info h3.fullname {
+	color: #9b9b9b;
+}
+.profile-sec .button-group {
+	text-align: end;
+	display: flex;
+	justify-content: end;
+}
+.profile-sec .button-group button.btn {
+	font-family: "nexa-bold";
+	border-radius: 50px;
+	margin-left: 10px;
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 50px;
+	transition: 0.6s;
+}
+.profile-sec .button-group button.btn:hover {
+	background: #5e5e5e;
+}
+.profile-sec .topbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-top: 1px solid #212121;
+	padding-top: 10px;
+	margin-top: 15px;
+}
+.profile-sec .topbar a {
+	position: relative;
+	text-decoration: none;
+}
+.profile-sec .topbar a.active:before {
+	content: "";
+	background: #fff;
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	top: -9px;
+}
+.profile-sec .topbar a span.count {
+	color: #ffffff;
+	font-size: 18px;
+	margin-right: 7px;
+}
+.profile-sec .topbar a span.tag {
+	color: #bbbbbb;
+	font-size: 18px;
+}
+.profile-sec .profile-post ul.nav-tabs {
+	border: 0;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.profile-sec .profile-post ul.nav-tabs li.nav-item button {
+	background: transparent;
+	border: 0;
+	padding: 0;
+	color: #7a7a7a;
+	font-size: 18px;
+	margin-right: 60px;
+}
+.profile-sec .profile-post ul.nav-tabs li.nav-item button.active {
+	color: #fff;
+}
+.profile-sec .profile-post .img-box img {
+	border-radius: 15px;
+}
+#unfollow .modal-content {
+	border-radius: 20px;
+	padding: 30px 30px;
+	text-align: center;
+}
+#unfollow .modal-dialog {
+	max-width: 600px;
+}
+#unfollow .modal-content .button-group {
+	text-align: center;
+}
+#unfollow .modal-content h2 {
+	color: #3d3d3d;
+	font-family: "nexa-bold";
+	display: flex;
+	justify-content: center;
+}
+#unfollow .modal-content h2 figure {
+	margin-left: 5px;
+}
+#unfollow .modal-content button.btn {
+	width: 155px;
+	padding: 10px 25px;
+}
+/* Profile Css End Here */
+
+/* Profile Followers Css Start Here */
+.profile-sec .profile-followers {
+	padding-top: 60px;
+}
+.profile-sec .profile-followers .heading-wrapper {
+	padding-bottom: 30px;
+}
+.profile-sec .profile-followers .heading-wrapper h2 {
+	font-weight: 500;
+}
+.profile-sec .profile-followers .heading-wrapper h2 span {
+	font-weight: 300;
+}
+.profile-sec .profile-followers .follow-box {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	justify-content: space-between;
+}
+.profile-sec .profile-followers .follow-box .left-side {
+	display: flex;
+	align-items: center;
+}
+.profile-sec .profile-followers .follow-box figure {
+	margin: 0;
+}
+.profile-sec .profile-followers .follow-box .name h5 {
+	font-size: 18px;
+	padding-left: 30px;
+}
+.profile-sec .profile-followers .follow-box figure img {
+	max-width: 60px;
+}
+.profile-sec .profile-followers .follow-box .left-side {
+	display: flex;
+	align-items: center;
+}
+.profile-sec .profile-followers .follow-box .buton-group .btn {
+	background: #414141;
+	padding: 8px 40px;
+	color: #fff;
+	border-radius: 6px;
+	transition: 0.6s;
+}
+.profile-sec .profile-followers .follow-box .buton-group .btn:hover {
+	background: transparent;
+	box-shadow: 0px 0px 0px 2px #414141;
+}
+/* Profile Followers Css End Here */
+
+/* User Profile Css Start Here */
+.userInfo-box {
+	position: relative;
+}
+.user-profile .button-group button.btn {
+	background: #262626;
+	border-radius: 0;
+	padding: 10px 40px;
+	margin-right: 20px;
+}
+.user-profile .button-group ul.dropdown-menu {
+	background: #262626;
+	margin-top: 10px !important;
+	padding-bottom: 0;
+}
+.user-profile .button-group button.message {
+	margin-left: 15px;
+	border: 0;
+	padding: 0;
+	background: linear-gradient(
+		to right,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	color: #fff;
+	position: relative;
+}
+.user-profile .button-group button.message span.dot {
+	background: #de0303;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	border-radius: 50%;
+	right: 0;
+	top: 0;
+}
+.user-profile .button-group ul.dropdown-menu li {
+	border-bottom: 1px solid #ffffff24;
+	padding: 5px 0;
+}
+.user-profile .button-group ul.dropdown-menu li a {
+	color: #fff;
+	font-size: 13px;
+}
+.user-profile .button-group ul.dropdown-menu li:last-child {
+	border-bottom: 0 !important;
+}
+.user-profile .button-group button.add-stuff {
+	margin-left: 15px;
+	border: 0;
+	padding: 0;
+	background: linear-gradient(
+		to right,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+}
+.user-profile .button-group button.add-stuff svg {
+	color: #fff;
+	height: 25px;
+	width: 25px;
+}
+.user-profile .button-group button.setting {
+	padding: 0;
+	border: 0;
+	background: transparent;
+	box-shadow: none;
+	outline: none;
+}
+.setting-box {
+	background: #1c1c1c;
+	position: absolute;
+	right: 0;
+	z-index: 2;
+	top: 80px;
+	display: none;
+	border-radius: 15px;
+}
+.setting-box.active {
+	display: block;
+}
+.setting-box ul.all-settings {
+	margin: 0;
+	list-style: none;
+	padding: 40px 60px 40px 0px;
+}
+.setting-box ul.all-settings li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.setting-box ul.all-settings li {
+	padding: 7px 40px;
+}
+.userInfo-box {
+	position: relative;
+}
+.setting-box .seeting-icons {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+	padding: 0;
+	box-shadow: none;
+	background: transparent;
+	border: 0;
+}
+/* User Profile Css End Here */
+
+/* Edit profile Css Start Here */
+.profile-sec .profile-info .form-group {
+	text-align: center;
+	color: #f9b84c;
+	text-transform: uppercase;
+}
+.profile-sec.userInfo-box {
+	padding-bottom: 20px;
+}
+.profile-sec .profile-info .form-group {
+	text-align: center;
+	color: #f9b84c;
+	text-transform: uppercase;
+}
+.profile-sec.userInfo-box {
+	padding-bottom: 20px;
+}
+.edit-profile .edit-profile-form {
+	background: #242526;
+	padding: 40px 50px;
+	border-radius: 15px;
+	position: relative;
+}
+.edit-profile .edit-profile-form .form-control {
+	padding: 20px 20px;
+	border-radius: 50px;
+	font-family: "nexa-regular";
+}
+.edit-profile .edit-profile-form button.btn {
+	background-image: linear-gradient(
+		to right top,
+		#fe5b25,
+		#fe6c1e,
+		#fd7c18,
+		#fb8b14,
+		#f99914
+	);
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 50px;
+	width: 100%;
+	border-radius: 50px;
+	margin-top: 32px;
+	transition: 0.6s;
+}
+.edit-profile .edit-profile-form button.btn:hover {
+	background: transparent;
+	box-shadow: 0px 0px 0px 2px #fe5b25 !important;
+}
+.edit-profile {
+	padding: 0px 0 100px 0;
+}
+/* Edit profile Css End Here */

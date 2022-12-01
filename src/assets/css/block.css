@@ -1,0 +1,58 @@
+/* Block Css Start Here */
+.block-list {
+	padding: 50px 0;
+}
+.block-list .follow-box {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	justify-content: space-between;
+}
+.block-list .follow-box .left-side {
+	display: flex;
+	align-items: center;
+}
+.block-list .follow-box figure {
+	margin: 0;
+}
+.block-list .follow-box .name h5 {
+	font-size: 18px;
+	padding-left: 30px;
+}
+.block-list .follow-box figure img {
+	max-width: 60px;
+}
+.block-list .follow-box .left-side {
+	display: flex;
+	align-items: center;
+}
+.block-list .follow-box .buton-group .btn {
+	background: #fb6e6e;
+	padding: 8px 40px;
+	color: #fff;
+	border-radius: 6px;
+	transition: 0.6s;
+}
+.block-list .follow-box .buton-group .btn:hover {
+	background: transparent;
+	box-shadow: 0px 0px 0px 2px #414141;
+}
+.block-list .block-list-box {
+	background: #ffffff12;
+	padding: 40px 100px;
+	border-radius: 10px;
+}
+.block-list {
+	padding: 50px 0;
+}
+.block-list .block-list-box {
+	background: #ffffff12;
+	padding: 40px 100px;
+	border-radius: 10px;
+}
+.block-list .block-list-box .heading {
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #333333;
+}
+/* Block Css End Here */
