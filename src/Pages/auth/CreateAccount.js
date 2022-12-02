@@ -28,8 +28,8 @@ const steps = [
 const CreateAccount = () => {
 	const dispatch = useDispatch();
 	const Navigate = useNavigate();
-	const [firstName, setFirstName] = useState("");
-	const [lastName, setLastName] = useState("");
+	const [first_name, setFirstName] = useState("");
+	const [last_name, setLastName] = useState("");
 	const [password, setPassword] = useState("");
 	const [confirmPassword, setConfirmPassword] = useState("");
 	const [email, setEmail] = useState("");
@@ -88,8 +88,8 @@ const CreateAccount = () => {
 		e.preventDefault();
 		setBtnLoading(true);
 		if (
-			!firstName ||
-			!lastName ||
+			!first_name ||
+			!last_name ||
 			!dob ||
 			!gender ||
 			!email
@@ -116,16 +116,24 @@ const CreateAccount = () => {
 		// }
 		else {
 			var data = new FormData();
-			data.append("f_name", firstName);
-			data.append("l_name", lastName);
+			data.append("first_name", first_name);
+			data.append("last_name", last_name);
+			data.append("dob", dob);
+			data.append("email", email);
 			data.append("gender", gender);
-			data.append("Email", email);
-			data.append("phone", dob);
 			console.log("complete Data", data);
 			let send = await dispatch(signUp(data, Navigate, setBtnLoading));
 		}
+		// let newSkipped = skipped;
+		// if (isStepSkipped(activeStep)) {
+		// 	newSkipped = new Set(newSkipped.values());
+		// 	newSkipped.delete(activeStep);
+		// }
+
+		// setActiveStep((prevActiveStep) => prevActiveStep + 1);
+		// setSkipped(newSkipped);
 	};
-	console.log(firstName, lastName, dob, gender);
+	console.log(first_name, last_name, dob, gender, email);
 	return (
 		<>
 			{/* header logo starts here */}
@@ -259,7 +267,8 @@ const CreateAccount = () => {
 																	type="text"
 																	className="form-control"
 																	placeholder="First name"
-																	value={firstName}
+																	value={first_name}
+																	required
 																	onChange={(e) => setFirstName(e.target.value)}
 																/>
 															</div>
@@ -268,7 +277,8 @@ const CreateAccount = () => {
 																	type="text"
 																	className="form-control"
 																	placeholder="Last name"
-																	value={lastName}
+																	required
+																	value={last_name}
 																	onChange={(e) => setLastName(e.target.value)}
 																/>
 															</div>
@@ -279,6 +289,7 @@ const CreateAccount = () => {
 																	type="date"
 																	className="form-control"
 																	placeholder="D.O.B"
+																	required
 																	value={dob}
 																	onChange={(e) => setDob(e.target.value)}
 																/>
@@ -287,6 +298,7 @@ const CreateAccount = () => {
 																<select
 																	onChange={(e) => setGender(e.target.value)}
 																	name=""
+																	required
 																	className="form-control"
 																	id=""
 																>
@@ -303,6 +315,7 @@ const CreateAccount = () => {
 																<input
 																	type="Email"
 																	className="form-control"
+																	required
 																	placeholder="Email"
 																	value={email}
 																	onChange={(e) => setEmail(e.target.value)}
